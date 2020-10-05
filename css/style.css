@@ -1,0 +1,209 @@
+body{
+
+}
+
+/* Layout */
+
+.wrapper{
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100vh;
+    background-image: url(../images/nicole.jpg);
+    background-size: cover;
+    padding: 45px 60px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.right{
+    width: 50%;
+    height: 100vh;
+}
+
+/**/
+/* Partie gauche */
+/**/
+
+/* header gauche */
+
+.header-left{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.header-left img{
+    max-width: 40px;
+    align-self: baseline;
+    margin-right: 15px;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 40px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* introduction */
+
+.introduction{
+    background-color: rgba(128, 128, 128,0.5);
+    text-align: right;
+    padding: 15px;
+
+}
+
+.introduction h2{
+    color: white;
+}
+
+.from-student{
+    font-style: italic;
+    font-weight: 200;
+    color: white;
+    font-size: 0.5em;
+    text-shadow: 1px 1px 2px rgb(122, 122, 122);
+}
+
+.introduction p{
+    font-weight: 200;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(122, 122, 122);
+    font-size: 22px;
+}
+/*Footer de gauche */
+
+.footer{
+    font-weight: 200;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(122, 122, 122);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.list{
+    margin-left: 15px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li a{
+    color: white;
+}
+
+/**/
+/*  Partie droite */
+/**/
+
+/*  header droit */
+
+
+.right{
+display: flex;
+flex-wrap: wrap;
+overflow: scroll;
+justify-content: space-around;
+}
+
+.header-right{
+    width: 100%;
+    min-height: 10%;
+    background:rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+}
+h2{
+    color: rgb(44, 44, 44);
+    margin: 25px;
+    font-size: 35px;
+}
+
+.article{
+    width: 50%;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+button{
+    width: 55px;
+    height: 25px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
+
+button a{
+    color: white;
+}
+
+button a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.namePhoto{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+
+.imageArticle{
+    max-height: 28px;
+    margin-right: 15px;
+}
+
+.namePhoto p{
+    color: rgb(204, 204, 204);
+    font-size: 16px;
+}
+.autor{
+    font-weight: 800;
+    color: black;
+}
+
+.description{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.link-article{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 60px;
+}
+
+.green{
+    background:#98DC62;
+}
+
+.team{
+    background: #DC5E53;
+}
+
+.work{
+    background: #0766F0;
+}
+
